@@ -5,4 +5,4 @@ Job wall
 
 Kazi search and linkup.
 
-To be contextualized for KE and TZ markets.
+To be contextualized for KE and TZ job markets.
