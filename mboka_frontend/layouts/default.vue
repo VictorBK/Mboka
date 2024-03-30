@@ -12,7 +12,7 @@
         <slot />
 
         <footer class="p-6 flex flex-wrap items-center justify-between bg-gray-900">
-            <p class="text-gray-300">Copyright © 2023 -Mboka</p>
+            <p class="text-gray-300">Copyright © 2024 -Mboka</p>
 
             <div class="flex mt-6 md:mt-0 items-center space-x-4">
                 <NuxtLink to="/login" class="py-4 px-6 bg-teal-900 hover:bg-teal-700 text-white rounded-xl">Log in</NuxtLink>
