@@ -10,66 +10,8 @@
             <h2 class="mb-8 text-2xl text-center">Newest jobs</h2>
 
             <div class="space-y-4">
-                <div class="p-6 flex items-center justify-between bg-gray-100 rounded-xl">
-                    <div>
-                        <h3 class="mb-2 text-xl font-semibold">The Job Position</h3>
-                        <p class="text-gray-600">The Company Name</p>
-                    </div>
-
-                    <div>
-                        <p class="mb-2">Worldwide</p>
-                        <p>$90 - 120k</p>
-                    </div>
-
-                    <div>
-                        <p>Posted Sept. 19. 2023</p>
-                    </div>
-
-                    <div>
-                        <NuxtLink to="/browse/1" class="py-4 px-6 bg-teal-700 text-white rounded-xl">Details</NuxtLink>
-                    </div>
-                </div>
-
-                <div class="p-6 flex items-center justify-between bg-gray-100 rounded-xl">
-                    <div>
-                        <h3 class="mb-2 text-xl font-semibold">The Job Position</h3>
-                        <p class="text-gray-600">The Company Name</p>
-                    </div>
-
-                    <div>
-                        <p class="mb-2">Worldwide</p>
-                        <p>$90 - 120k</p>
-                    </div>
-
-                    <div>
-                        <p>Posted Sept. 19. 2023</p>
-                    </div>
-
-                    <div>
-                        <NuxtLink to="/browse/1" class="py-4 px-6 bg-teal-700 text-white rounded-xl">Details</NuxtLink>
-                    </div>
-                </div>
-
-                <div class="p-6 flex items-center justify-between bg-gray-100 rounded-xl">
-                    <div>
-                        <h3 class="mb-2 text-xl font-semibold">The Job Position</h3>
-                        <p class="text-gray-600">The Company Name</p>
-                    </div>
-
-                    <div>
-                        <p class="mb-2">Worldwide</p>
-                        <p>$90 - 120k</p>
-                    </div>
-
-                    <div>
-                        <p>Posted Sept. 19. 2023</p>
-                    </div>
-
-                    <div>
-                        <NuxtLink to="/browse/1" class="py-4 px-6 bg-teal-700 text-white rounded-xl">Details</NuxtLink>
-                    </div>
-                </div>
-            
+                <job />
+                           
             </div>
         </div>
     </div>
