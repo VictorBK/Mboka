@@ -8,7 +8,6 @@ const userStore = userUserStore()
     <div>
         <nav class="p-6 flex items-center justify-between bg-teal-800">
             <NuxtLink to="/" class="text-xl text-white">Mboka</NuxtLink>
-
             <div class="flex items-center space-x-4">
                 <NuxtLink to="/" class="text-white hover:text-teal-300">Home</NuxtLink>
                 <NuxtLink to="/browse" class="text-white hover:text-teal-300">Browse</NuxtLink>
