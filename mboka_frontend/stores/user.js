@@ -1,10 +1,10 @@
-import { defineStore } from "pinia";
+import { defineStore } from 'pinia'
 
-export const userUserStore = defineStore({
+export const useUserStore = defineStore({
     id: 'user',
     state: () => ({
         user: {
-            isAuthenticated: true,
+            isAuthenticated: false,
             email: null,
             token: null
         }
@@ -12,14 +12,14 @@ export const userUserStore = defineStore({
 
     actions: {
         initStore() {
-            this.user.isAuthenticated = true
+            this.user.isAuthenticated = false
 
             if (localStorage.getItem('user.token')) {
                 this.user.token = localStorage.getItem('user.token')
                 this.user.email = localStorage.getItem('user.email')
                 this.user.isAuthenticated = true
 
-                console.log('Initialized user:', this.user)
+                console.log('Initalized user:', this.user)
             }
         },
         setToken(token, email) {
