@@ -11,7 +11,7 @@ function logout() {
 <template>
     <div>
         <nav class="p-6 flex items-center justify-between bg-teal-800">
-            <NuxtLink to="/" class="text-xl text-white">Djob</NuxtLink>
+            <NuxtLink to="/" class="text-xl text-white">Mboka</NuxtLink>
 
             <div class="flex items-center space-x-4">
                 <NuxtLink to="/" class="text-white hover:text-teal-300">Home</NuxtLink>
@@ -22,7 +22,7 @@ function logout() {
         <slot />
 
         <footer class="p-6 flex flex-wrap items-center justify-between bg-gray-900">
-            <p class="text-gray-300">Copyright (c) 2023 - Djob</p>
+            <p class="text-gray-300">Copyright © 2024 -Mboka</p>
 
             <div class="flex mt-6 md:mt-0 items-center space-x-4">
                 <template v-if="userStore.user.isAuthenticated">
